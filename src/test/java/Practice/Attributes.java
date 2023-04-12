@@ -18,6 +18,7 @@ public class Attributes {
 
 	public static void main(String[] args) throws Exception {
             
+		//Webdriver launch
 		WebDriverManager.chromedriver().setup(); 
 		WebDriver driver =new ChromeDriver(); 
 		
